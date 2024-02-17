@@ -16,7 +16,7 @@ public class Auto {
 		return contador;	
 	}
 	
-	String verificarIntegridad(int verificar) {
+	String verificarIntegridad() {
 		for (int i = 0; i < this.asientos.length; i++ )
 			if (asientos[i] != null) {
 				if (this.registro != asientos[i].registro)
